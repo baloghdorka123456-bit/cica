@@ -9,7 +9,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.6;
     background: #f5f5f7;
-    color: #222;
+    color: #ccc;
 }
 
 /* Fejléc */
@@ -70,7 +70,7 @@ body {
 .site-footer {
     text-align: center;
     padding: 15px 10px;
-    background: #222;
+    background: #674;
     color: #ddd;
     font-size: 0.9rem;
 }
