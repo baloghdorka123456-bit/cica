@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Az első GitHub oldalam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Az első GitHub oldalam</h1>
+        <nav>
+            <a href="#rolam">Rólam</a>
+            <a href="#projektek">Projektek</a>
+            <a href="#kapcsolat">Kapcsolat</a>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section id="rolam">
+            <h2>Rólam</h2>
+            <p>
+                Itt írhatod le, ki vagy, mivel foglalkozol, vagy miért hoztad létre ezt az oldalt.
+            </p>
+        </section>
+
+        <section id="projektek">
+            <h2>Projektek</h2>
+            <ul>
+                <li>Projekt 1 – rövid leírás</li>
+                <li>Projekt 2 – rövid leírás</li>
+                <li>Projekt 3 – rövid leírás</li>
+            </ul>
+        </section>
+
+        <section id="kapcsolat">
+            <h2>Kapcsolat</h2>
+            <p>
+                Ide tehetsz egy e‑mail címet, vagy linket a GitHub profilodra.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Dorka – Készült GitHub Pages segítségével</p>
+    </footer>
+</body>
+</html>
