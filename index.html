@@ -2,7 +2,7 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>Az első GitHub oldalam</title>
+    <title>én kicsi weblapom.com</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,13 +25,14 @@
             </p>
         </section>
 
-        <section id="projektek">
-            <h2>Projektek</h2>
-            <ul>
-                <li>Projekt 1 – rövid leírás</li>
-                <li>Projekt 2 – rövid leírás</li>
-                <li>Projekt 3 – rövid leírás</li>
-            </ul>
+        <!-- SÖR GENERÁTOR -->
+        <section id="sor">
+            <h2>Igyak-e ma sört? 🍺</h2>
+
+            <div class="sor-box">
+                <button onclick="sorGenerator()">Kattints és megtudod</button>
+                <p id="sorEredmeny"></p>
+            </div>
         </section>
 
         <!-- SZERELEM KALKULÁTOR -->
@@ -75,6 +76,22 @@
             const love = Math.floor(Math.random() * 100) + 1;
 
             eredmeny.textContent = `${nev1} és ${nev2} szerelmének esélye: ${love}% ❤️`;
+        }
+
+        /* SÖR GENERÁTOR */
+        function sorGenerator() {
+            const valaszok = [
+                "igen",
+                "naná",
+                "persze",
+                "nyilván",
+                "egyértelműen",
+                "ez nem kérdés"
+            ];
+
+            const random = Math.floor(Math.random() * valaszok.length);
+            document.getElementById("sorEredmeny").textContent =
+                "Válasz: " + valaszok[random];
         }
     </script>
 
