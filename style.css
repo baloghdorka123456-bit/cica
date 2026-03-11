@@ -6,34 +6,101 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
     background: #f5f5f7;
-    color: #ccc;
+    color: #222;
+    line-height: 1.6;
 }
 
 /* Fejléc */
-
 .site-header {
-    background: linear-gradient(135deg, #F54927, #00FF11, #C800FF);
+    background: linear-gradient(135deg, #6c5ce7, #a55eea);
     color: white;
     padding: 20px 10%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-}
-
-.site-header h1 {
-    font-size: 4.6rem;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
 .site-header nav a {
-    color: yellow;
+    color: white;
     text-decoration: none;
     margin-left: 15px;
-    font-weight: 500;
+    font-weight: bold;
+}
+
+.site-header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Tartalom */
+.site-main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.site-main section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Kép */
+.profil-kep {
+    display: block;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* SZERELEM KALKULÁTOR */
+.love-box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.love-box input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.love-box button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.love-box button:hover {
+    background: #ff1e46;
+}
+
+#eredmeny {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d6336c;
+}
+
+/* Lábléc */
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: #ddd;
+    margin-top: 40px;
+}
 }
 
 .site-header nav a:hover {
