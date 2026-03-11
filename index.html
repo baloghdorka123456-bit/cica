@@ -2,15 +2,16 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>hát ez valami FaNtAszTikUs!4</title>
+    <title>Az első GitHub oldalam</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="site-header">
-        <h1>hát ez valami FaNtAszTikUs!4</h1>
+        <h1>Az első GitHub oldalam</h1>
         <nav>
             <a href="#rolam">Rólam</a>
             <a href="#projektek">Projektek</a>
+            <a href="#szerelem">Szerelem kalkulátor</a>
             <a href="#kapcsolat">Kapcsolat</a>
         </nav>
     </header>
@@ -18,22 +19,69 @@
     <main class="site-main">
         <section id="rolam">
             <h2>Rólam</h2>
+
+            <img src="https://picsum.photos/300" alt="Profilkép" class="profil-kep">
+
             <p>
-                Itt írhatod le, ki vagy, mivel foglalkozol, vagy miért hoztad létre ezt az oldalt.
+                Ez egy példaoldal GitHub Pages-hez. A kép automatikusan betöltődik az internetről.
             </p>
         </section>
 
         <section id="projektek">
             <h2>Projektek</h2>
             <ul>
-                <li>lg</li>
-                <li>mikrohullámú</li>
-                <li>sütő – rövid leírás</li>
+                <li>Projekt 1 – rövid leírás</li>
+                <li>Projekt 2 – rövid leírás</li>
+                <li>Projekt 3 – rövid leírás</li>
             </ul>
+        </section>
+
+        <!-- SZERELEM KALKULÁTOR -->
+        <section id="szerelem">
+            <h2>Szerelem kalkulátor ❤️</h2>
+
+            <div class="love-box">
+                <input type="text" id="nev1" placeholder="Első név">
+                <input type="text" id="nev2" placeholder="Második név">
+                <button onclick="calcLove()">Számolás</button>
+
+                <p id="eredmeny"></p>
+            </div>
         </section>
 
         <section id="kapcsolat">
             <h2>Kapcsolat</h2>
+            <p>
+                Írj nekem bátran: pelda@pelda.hu
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 – Készült GitHub Pages segítségével</p>
+    </footer>
+
+    <!-- SZERELEM KALKULÁTOR SCRIPT -->
+    <script>
+        function calcLove() {
+            const nev1 = document.getElementById("nev1").value.trim();
+            const nev2 = document.getElementById("nev2").value.trim();
+            const eredmeny = document.getElementById("eredmeny");
+
+            if (nev1 === "" || nev2 === "") {
+                eredmeny.textContent = "Kérlek írj be két nevet!";
+                return;
+            }
+
+            // Véletlenszerű százalék 1 és 100 között
+            const love = Math.floor(Math.random() * 100) + 1;
+
+            eredmeny.textContent = `${nev1} és ${nev2} szerelmének esélye: ${love}% ❤️`;
+        }
+    </script>
+
+</body>
+</html>
             <p>
                 Ide tehetsz egy e‑mail címet, vagy linket a GitHub profilodra.
             </p>
