@@ -1,0 +1,94 @@
+/* Alap beállítások */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+    background: #f5f5f7;
+    color: #222;
+}
+
+/* Fejléc */
+
+.site-header {
+    background: linear-gradient(135deg, #6c5ce7, #a55eea);
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.site-header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.site-header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Fő tartalom */
+
+.site-main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px 40px;
+}
+
+.site-main section {
+    background: white;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.site-main h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.site-main ul {
+    margin-left: 20px;
+}
+
+/* Lábléc */
+
+.site-footer {
+    text-align: center;
+    padding: 15px 10px;
+    background: #222;
+    color: #ddd;
+    font-size: 0.9rem;
+}
+
+/* Mobilbarát apróságok */
+
+@media (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-header nav {
+        margin-top: 5px;
+    }
+
+    .site-header nav a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
