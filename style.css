@@ -6,10 +6,11 @@
 }
 
 body {
-    font-family: Bebas-Neue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     background: #f5f5f7;
     color: #222;
     line-height: 1.6;
+
 }
 
 /* Fejléc */
@@ -97,7 +98,14 @@ body {
 .sor-box {
     text-align: center;
     margin-top: 15px;
+    background-image: url(https://glacier-design.com/wp-content/uploads/2022/10/Can-you-hydrate-yourself-with-beer-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px; 
 }
+
 
 .sor-box button {
     padding: 10px 20px;
