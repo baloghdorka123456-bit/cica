@@ -51,7 +51,7 @@ body {
 }
 
 .site-main section {
-    background: white;
+    background: black;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -69,6 +69,7 @@ body {
 
 /* SZERELEM KALKULÁTOR */
 .love-box {
+    background-image: url(https://w0.peakpx.com/wallpaper/486/458/HD-wallpaper-pink-glare-hearts-pink-glitter-background-creative-love-concepts-abstract-hearts-pink-hearts.jpg);
     text-align: center;
     margin-top: 15px;
 }
