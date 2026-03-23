@@ -94,16 +94,23 @@ body {
     color: #d6336c;
 }
 
-/* SÖR GENERÁTOR */
-.sor-box {
-    text-align: center;
-    margin-top: 15px;
-    background-image: url(https://glacier-design.com/wp-content/uploads/2022/10/Can-you-hydrate-yourself-with-beer-scaled.jpg);
+/* SÖR GENERÁTOR – teljes doboz háttérképpel */
+.sor-generator {
+    background-image: url('a-te-keped.jpg'); /* ide jön a fotó */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* SÖR GENERÁTOR belső box */
+.sor-box {
+    text-align: center;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.6); /* halvány fehér háttér, hogy olvasható legyen */
     padding: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 
