@@ -105,7 +105,7 @@ body {
 
 /* SÖR GENERÁTOR – teljes doboz háttérképpel */
 .sor-generator {
-    background-image: url('a-te-keped.jpg'); /* ide jön a fotó */
+    background-image: url(https://www.beerstro14.hu/wp-content/uploads/2024/01/what-types-of-beers-are-there.webp); /* ide jön a fotó */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
