@@ -5,15 +5,6 @@
     padding: 0;
 }
 
-.focim {
-    font-family: 'Great Vibes', cursive;
-    font-size: 64px;
-    color: #ff4db8; /* harsány rózsaszín */
-    text-shadow: 2px 2px 6px rgba(255, 0, 150, 0.5);
-    letter-spacing: 2px;
-    font-weight: normal;
-}
-
 body {
     font-family: comic_sans_ms, cursive;
     background: background-image: url(https://w0.peakpx.com/wallpaper/486/458/HD-wallpaper-pink-glare-hearts-pink-glitter-background-creative-love-concepts-abstract-hearts-pink-hearts.jpg);
@@ -44,6 +35,16 @@ body {
 }
 
 /* Tartalom */
+
+.focim {
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    color: #ff4db8; /* harsány rózsaszín */
+    text-shadow: 2px 2px 6px rgba(255, 0, 150, 0.5);
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
 .site-main {
     max-width: 900px;
     margin: 30px auto;
