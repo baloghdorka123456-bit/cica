@@ -7,10 +7,11 @@
 
 body {
     font-family: comic_sans_ms, cursive;
-    background: background-image: url(https://w0.peakpx.com/wallpaper/486/458/HD-wallpaper-pink-glare-hearts-pink-glitter-background-creative-love-concepts-abstract-hearts-pink-hearts.jpg);
+    background-image: url("https://w0.peakpx.com/wallpaper/486/458/HD-wallpaper-pink-glare-hearts-pink-glitter-background-creative-love-concepts-abstract-hearts-pink-hearts.jpg");
+    background-size: cover;
+    background-position: center;
     color: #ED0096;
     line-height: 1.6;
-
 }
 
 /* Fejléc */
@@ -34,29 +35,38 @@ body {
     text-decoration: underline;
 }
 
-/* Tartalom */
-
+/* Főcím */
 .focim {
     font-family: 'Great Vibes', cursive;
     font-size: 64px;
-    color: #ff4db8; /* harsány rózsaszín */
+    color: #ff4db8;
     text-shadow: 2px 2px 6px rgba(255, 0, 150, 0.5);
     letter-spacing: 2px;
     font-weight: normal;
 }
 
+/* Tartalom */
 .site-main {
     max-width: 900px;
     margin: 30px auto;
-    padding: 0 15px;
+    padding: 0 15px 40px;
 }
 
 .site-main section {
-    background: black;
-    padding: 20px;
-    margin-bottom: 20px;
+    background: pink;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.site-main h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.site-main ul {
+    margin-left: 20px;
 }
 
 /* Kép */
@@ -70,9 +80,13 @@ body {
 
 /* SZERELEM KALKULÁTOR */
 .love-box {
-    background-image: url(https://w0.peakpx.com/wallpaper/486/458/HD-wallpaper-pink-glare-hearts-pink-glitter-background-creative-love-concepts-abstract-hearts-pink-hearts.jpg);
+    background-image: url("https://w0.peakpx.com/wallpaper/486/458/HD-wallpaper-pink-glare-hearts-pink-glitter-background-creative-love-concepts-abstract-hearts-pink-hearts.jpg");
+    background-size: cover;
+    background-position: center;
     text-align: center;
     margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .love-box input {
@@ -107,7 +121,7 @@ body {
 
 /* SÖR GENERÁTOR – teljes doboz háttérképpel */
 .sor-generator {
-    background-image: url(https://www.thedailymeal.com/img/gallery/11-of-the-healthiest-beers-you-can-drink-upgrade/intro-1731537272.jpg); /* ide jön a fotó */
+    background-image: url("https://www.thedailymeal.com/img/gallery/11-of-the-healthiest-beers-you-can-drink-upgrade/intro-1731537272.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,11 +133,10 @@ body {
 .sor-box {
     text-align: center;
     margin-top: 15px;
-    background: rgba(255, 255, 255, 0.6); /* halvány fehér háttér, hogy olvasható legyen */
+    background: rgba(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 10px;
 }
-
 
 .sor-box button {
     padding: 10px 20px;
@@ -150,54 +163,14 @@ body {
 /* Lábléc */
 .site-footer {
     text-align: center;
-    padding: 15px;
-    background: #222;
-    color: #ddd;
-    margin-top: 40px;
-}
-}
-
-.site-header nav a:hover {
-    text-decoration: underline;
-}
-
-/* Fő tartalom */
-
-.site-main {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 0 15px 40px;
-}
-
-.site-main section {
-    background: pink;
-    border-radius: 8px;
-    padding: 20px 24px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-}
-
-.site-main h2 {
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.site-main ul {
-    margin-left: 20px;
-}
-
-/* Lábléc */
-
-.site-footer {
-    text-align: center;
     padding: 15px 10px;
     background: #674;
     color: #ddd;
     font-size: 0.9rem;
+    margin-top: 40px;
 }
 
 /* Mobilbarát apróságok */
-
 @media (max-width: 600px) {
     .site-header {
         flex-direction: column;
