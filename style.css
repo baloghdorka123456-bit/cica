@@ -129,15 +129,6 @@ body {
     border-radius: 15px;
 }
 
-/* SÖR GENERÁTOR belső box */
-.sor-box {
-    text-align: center;
-    margin-top: 15px;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-}
-
 .sor-box button {
     padding: 10px 20px;
     margin-top: 10px;
