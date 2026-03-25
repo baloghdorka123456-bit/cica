@@ -120,7 +120,7 @@ body {
 }
 
 /* SÖR GENERÁTOR – teljes doboz háttérképpel */
-.sor-generator {
+.sor-box {
     background-image: url("https://www.thedailymeal.com/img/gallery/11-of-the-healthiest-beers-you-can-drink-upgrade/intro-1731537272.jpg");
     background-size: cover;
     background-position: center;
